@@ -1,7 +1,8 @@
 name: test-run-without-initialization
-on: create
-  branches:
-    - main
+on:
+  create:
+    branches:
+      - main
 jobs:
   run-on-clone:
     runs-on: ubuntu-latest
