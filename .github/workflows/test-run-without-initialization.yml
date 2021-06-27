@@ -1,8 +1,6 @@
-name: test-run-without-initialization
+name: initialize-app
 on:
-  workflow_dispatch:
-    branches:
-      - main
+  workflow_dispatch
   create:
     branches:
       - main
