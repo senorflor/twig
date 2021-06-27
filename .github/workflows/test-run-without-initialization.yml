@@ -1,6 +1,6 @@
 name: initialize-app
 on:
-  workflow_dispatch: ""
+  workflow_dispatch: {}
   create:
     branches:
       - main
