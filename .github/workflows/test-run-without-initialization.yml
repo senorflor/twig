@@ -1,0 +1,9 @@
+name: test-run-without-initialization
+on: create
+  branches:
+    - main
+jobs:
+  run-on-clone:
+    runs-on: ubuntu-latest
+      steps:
+        - run: echo HELLO YGGDRASIL
